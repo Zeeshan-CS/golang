@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 func even_odd(x int)int{
 	if x % 2 == 0 {
 		return 0
