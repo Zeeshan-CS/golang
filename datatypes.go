@@ -1,6 +1,6 @@
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
 // func main() {
 // 	var i bool
@@ -32,17 +32,17 @@
 
 // 	return
 // }
-// func main() {
-// 	var x int64 = 2
-// 	fmt.Printf("x %v \n", x)
+func main() {
+	var x int64 = 2
+	fmt.Printf("x %v \n", x)
 
-// 	x, y := test()
-// 	if x > 0 {
-// 		fmt.Printf("x %v y %v \n", x, y)
-// 	}
+	x, y := test()
+	if x > 0 {
+		fmt.Printf("x %v y %v \n", x, y)
+	}
 
-// 	fmt.Printf("x %v \n", x)
-// }
+	fmt.Printf("x %v \n", x)
+}
 
 package main
 
@@ -53,35 +53,36 @@ type sum struct {
 
 func main() {
 
-	// var i int
-	// var j int
+	var i int
+	var j int
 
-	// fmt.Println("Enter value of x")
-	// fmt.Scanln(&i)
+	fmt.Println("Enter value of x")
+	fmt.Scanln(&i)
 
-	// fmt.Println("Enter value of x")
-	// fmt.Scanln(&j)
+	fmt.Println("Enter value of x")
+	fmt.Scanln(&j)
 
-	// fmt.Println("Printing struct values", sum{i, j})
+	fmt.Println("Printing struct values", sum{i, j})
 
-	// i := 43
-	// j := &i
-	// fmt.Println(i)
-	// fmt.Println(j)
+	i := 43
+	j := &i
+	fmt.Println(i)
+	fmt.Println(j)
 
 	//for continued
-	// sum := 1
-	// for sum < 1000 {
-	// 	sum += sum + 2
-	// }
-	// fmt.Println(sum)
+	
+	sum := 1
+	for sum < 1000 {
+		sum += sum + 2
+	}
+	fmt.Println(sum)
 
-	// i := 0
-	// sum := 0
+	i := 0
+	sum := 0
 
-	// for i = 1; i < 100; i += 2 {
-	// 	sum += i
-	// }
-	// fmt.Println(sum)
+	for i = 1; i < 100; i += 2 {
+		sum += i
+	}
+	fmt.Println(sum)
 
 }
